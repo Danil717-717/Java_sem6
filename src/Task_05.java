@@ -24,13 +24,17 @@ public class Task_05 {
         cat1.setDoctor(new Doctor("Vasa"));
 
         Cat cat2 = new Cat("Vaska");
-        Cat cat3 = new Cat("Vaska");
+        cat1.setAge(15);
+        cat1.setPassport(10001);
+        cat1.setDoctor(new Doctor("Vasa"));
+
+        Cat cat3 = new Cat("gh");
         Set<Cat> cats = new HashSet<>();
         cats.add(cat2);
         cats.add(cat3);
 
         System.out.println(cats);
-        System.out.println(cat2.equals(cat3));  // все обьекты ссылочного типа сравниваются через equals
+        //System.out.println(cat2.equals(cat3));  // все обьекты ссылочного типа сравниваются через equals
 
     }
 }
