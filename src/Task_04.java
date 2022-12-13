@@ -10,6 +10,8 @@ public class Task_04 {
     public static void main(String[] args) {
             Cat cat1 = new Cat("Barsic");
             cat1.setAge(10);
+            cat1.setPassport(12345);
+            cat1.setDoctor(new Doctor("Vasa"));
 
             System.out.println(cat1); //Cat@6d03.... название метода @ хеш его можно переопределить
         }
